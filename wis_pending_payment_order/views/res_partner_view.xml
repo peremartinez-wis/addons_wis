@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Adding the button -->
+    <record model="ir.ui.view" id="wis_pending_payment_order_view_buttons">
+        <field name="name">partner.view.buttons</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="priority" eval="20"/>
+        <field name="groups_id" eval="[(4, ref('account.group_account_invoice'))]"/>
+        <field name="arch" type="xml">
+            <div name="button_box" position="inside">
+                <button type="object"
+                    class="oe_stat_button"
+                    id="pending_payment_order_button"
+                    icon="fa-pencil-square-o"
+                    name="action_open_payment_lines"
+                    attrs="{'invisible': [('customer', '=', False)]}">
+                    <div class="o_form_field o_stat_info">
+                        <span class="o_stat_value"><field name="total_pending_payment_order" widget='monetary'/></span>
+                        <span class="o_stat_text">Pending Payment Order</span>
+                    </div>
+                </button>
+            </div>
+        </field>
+    </record>
+</odoo>

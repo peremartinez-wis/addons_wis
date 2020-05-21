@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Adding the button -->
+    <record model="ir.ui.view" id="wis_pending_payment_order_discount_view_buttons">
+        <field name="name">wis.pending.payment.order.discount.view.buttons</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="priority" eval="20"/>
+        <field name="groups_id" eval="[(4, ref('account.group_account_invoice'))]"/>
+        <field name="arch" type="xml">
+            <div name="button_box" position="inside">
+                <button type="object"
+                    class="oe_stat_button"
+                    id="pending_payment_order_discount_button"
+                    icon="fa-percent"
+                    name="action_open_payment_lines"
+                    attrs="{'invisible': [('customer', '=', False)]}">
+                    <div class="o_form_field o_stat_info">
+                        <span class="o_stat_value"><field name="total_pending_payment_order_discount" widget='monetary'/></span>
+                        <span class="o_stat_text">Payment Order Discount</span>
+                    </div>
+                </button>
+            </div>
+        </field>
+    </record>
+</odoo>

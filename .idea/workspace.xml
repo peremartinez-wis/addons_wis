@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3a4b6b1-3e89-4889-a905-0e0315ac3328" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wis_assing_sale_team/static/description/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wis_credit_control/static/description/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wis_partner_app/static/description/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wis_payment_order_discount/static/description/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wis_pending_payment_order/static/description/icon.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cCq5qP0ImEybuNRHhEePrePHJ5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wis_pending_payment_order/static/description" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wis_pending_payment_order/static/description" />
+      <recent name="$PROJECT_DIR$/wis_payment_order_discount/static/description" />
+      <recent name="$PROJECT_DIR$/wis_partner_app/static/description" />
+      <recent name="$PROJECT_DIR$/wis_credit_control/static/description" />
+      <recent name="$PROJECT_DIR$/wis_assing_sale_team/static/description" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3a4b6b1-3e89-4889-a905-0e0315ac3328" name="Default Changelist" comment="" />
+      <created>1590042742885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590042742885</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wis_payment_order_discount/__init__.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

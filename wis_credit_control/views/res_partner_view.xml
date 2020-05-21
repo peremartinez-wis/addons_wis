@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="wis_credit_control_res_partner_view_form" model="ir.ui.view">
+        <field name="name">wis.credit.control.res.partner.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="account.view_partner_property_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='sales_purchases']/group" position="after">
+                <group name="fiscal_information" position="before">
+                    <group string="Crédito WIS" name="wis_credit">
+                        <field name="wis_segment"/>
+                        <field name="wis_customer_petition"/>
+                        <field name="wis_answer"/>
+                        <field name="wis_agreement"/>
+                    </group>
+                    <group name="wis_credit_right">
+                        <field name="wis_cup_after_covid"/>
+                        <field name="wis_next_visit"/>
+                        <field name="wis_comments"/>
+                    </group>
+
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

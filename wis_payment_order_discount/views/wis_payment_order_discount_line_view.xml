@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- form view -->
+    <record id="wis_payment_order_discount_line_form" model="ir.ui.view">
+        <field name="name">wis.payment.order.discount.line.form</field>
+        <field name="model">wis.payment.order.discount.line</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <group name="basic_info">
+                        <field name="partner_id" />
+                        <field name="origin_id" />
+                        <field name="mandate_id" />
+                    </group>
+                    <group name="dates">
+                        <field name="due_date" />
+                        <field name="payment_date" />
+                        <field name="amount" />
+                    </group>
+                </group>
+                <group>
+                    <field name="comments" />
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!-- tree view -->
+    <record id="wis_payment_order_discount_line_tree" model="ir.ui.view">
+        <field name="name">wis.payment.order.discount.line.tree</field>
+        <field name="model">wis.payment.order.discount.line</field>
+        <field name="arch" type="xml">
+            <tree string="Líneas con descuento">
+                <field name="partner_id" />
+                <field name="origin_id" />
+                <field name="mandate_id" />
+                <field name="due_date" />
+                <field name="payment_date" />
+                <field name="amount" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- search view -->
+    <record id="wis_payment_order_discount_line_search" model="ir.ui.view">
+        <field name="name">wis.payment.order.discount.line.search</field>
+        <field name="model">wis.payment.order.discount.line</field>
+        <field name="arch" type="xml">
+            <search string="Search">
+                <filter name="due_date_older_than_today" string="Vence a futuro" domain="[('due_date','&gt;=',time.strftime('%%Y-%%m-%%d')), ]"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- action -->
+    <record id="wis_payment_order_discount_line_action" model="ir.actions.act_window">
+        <field name="name">Líneas de giro con descuento</field>
+        <field name="res_model">wis.payment.order.discount.line</field>
+        <field name="context">{"search_default_due_date_older_than_today":1}</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- menu items -->
+    <menuitem id="wis_payment_order_discount_menu"
+              name="Giros con descuento"
+              parent="account_credit_control.base_credit_control_menu"
+              sequence="30" />
+        <menuitem id="wis_payment_order_discount_line_menu"
+                  name="Giros con descuento"
+                  action="wis_payment_order_discount_line_action"
+                  parent="wis_payment_order_discount_menu"
+                  sequence="30" />
+</odoo>
