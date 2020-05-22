@@ -5,7 +5,7 @@
 {
     "name": "WIS Payment Order Discount",
     'summary': "Módulo para controlar los giros con descuento.",
-    "version": "10.0.1.0.0",
+    "version": "12.0.1.0.0",
     "author": "Wineissocial",
     "website": "https://www.wineissocial.com",
     "category": "Accounting",

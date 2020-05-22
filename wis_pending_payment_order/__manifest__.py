@@ -5,7 +5,7 @@
 {
     "name": "WIS Giros Pendientes",
     'summary': "Smartbutton que calcula los giros pendientes en el form de cliente.",
-    "version": "10.0.1.0.0",
+    "version": "12.0.1.0.0",
     "author": "Wineissocial",
     "website": "https://www.wineissocial.com",
     "category": "Accounting",

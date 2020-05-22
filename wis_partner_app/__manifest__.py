@@ -5,7 +5,7 @@
 {
     "name": "WIS Partner App",
     'summary': "Adding a boolean smart-button to indicate if the partner has installed the app.",
-    "version": "10.0.1.0.0",
+    "version": "12.0.1.0.0",
     "author": "Wineissocial",
     "website": "https://www.wineissocial.com",
     "category": "Accounting",
