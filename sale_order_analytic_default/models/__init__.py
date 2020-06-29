@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
+# Copyright 2020 Pere Martínez <pere@wineissocial.com>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
-# Copyright (c) 2020 Wineissocial (http://www.wineissocial.com)
 
-from . import models
+from . import sale_order

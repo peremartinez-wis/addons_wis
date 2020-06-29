@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a4b6b1-3e89-4889-a905-0e0315ac3328" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/__manifest__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/models/sale_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/static/description/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/views/res_partner_view.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res_partner_analytic/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/res_partner_analytic/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res_partner_analytic/models/res_partner.py" beforeDir="false" afterPath="$PROJECT_DIR$/res_partner_analytic/models/res_partner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res_partner_analytic/static/description/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/res_partner_analytic/static/description/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sale_order_analytic_required/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sale_order_analytic_required/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sale_order_analytic_required/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sale_order_analytic_required/__manifest__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,15 +29,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sale_order_analytic_required/static/description" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sale_order_analytic_default" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/res_partner_analytic/static/description" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/sale_order_analytic_required/static/description" />
+      <recent name="$PROJECT_DIR$/res_partner_analytic/static/description" />
       <recent name="$PROJECT_DIR$/wis_pending_payment_order/static/description" />
       <recent name="$PROJECT_DIR$/wis_payment_order_discount/static/description" />
-      <recent name="$PROJECT_DIR$/wis_partner_app/static/description" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -58,6 +67,16 @@
       <updated>1590042742885</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="333" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1593410660435">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state x="333" y="213" key="com.intellij.ide.util.TipDialog/0.23.1280.710@0.23.1280.710" timestamp="1593410660435" />
+    <state x="320" y="135" width="639" height="486" key="find.popup" timestamp="1593411842870">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state x="320" y="135" width="639" height="486" key="find.popup/0.23.1280.710@0.23.1280.710" timestamp="1593411842870" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

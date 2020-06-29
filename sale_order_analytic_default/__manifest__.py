@@ -3,19 +3,19 @@
 # Copyright (c) 2020 Wineissocial (http://www.wineissocial.com)
 
 {
-    'name': 'Sale Order Analytic Required',
-    'summary': 'This module sets the analytic account field as mandatory in sale orders.',
-    'version': '12.0.1.0',
+    'name': 'Sale Order Analytic Default',
+    'summary': 'This module sets the partner analytic account into the sale order',
+    'version': '12.0.0.1',
     'category': 'Analytic',
     'license': 'AGPL-3',
     'author': "Pere Martínez",
     'website': '',
     'depends': [
+        'res_partner_analytic',
         'sale',
         'analytic',
     ],
     'data': [
-        'views/sale_order.xml',
     ],
     'installable': True,
 }
