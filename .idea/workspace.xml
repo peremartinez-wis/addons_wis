@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a4b6b1-3e89-4889-a905-0e0315ac3328" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/README.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/__manifest__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/models/sale_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/static/description/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sale_order_analytic_default/views/res_partner_view.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sale_order_analytic_required/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sale_order_analytic_required/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sale_order_analytic_required/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sale_order_analytic_required/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sale_order_analytic_default/models/sale_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/sale_order_analytic_default/models/sale_order.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

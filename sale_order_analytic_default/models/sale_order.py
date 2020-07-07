@@ -13,8 +13,9 @@ class SaleOrder(models.Model):
         """
         Update the following fields when the Partner is changed:
         """
-        if self.partner_id:
+        res = super(SaleOrder, self).onchange_partner_id()
+        self.analytic_account_id = False
+        if self.partner_id.sale_account_analytic_id:
             # See if the user_id team has the mark Override User Team
             self.analytic_account_id = self.partner_id.sale_account_analytic_id.id
-
-        return
+        return res
