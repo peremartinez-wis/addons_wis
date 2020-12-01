@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a4b6b1-3e89-4889-a905-0e0315ac3328" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res_partner_analytic/views/res_partner_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res_partner_analytic/views/res_partner_view.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
